@@ -1,0 +1,34 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    margin: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.custom {
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-right: 100px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #495061;
+    background-color: #417be7;
+    border: 1px solid #d4e8fd;
+    .notification-title {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #2589f3;
+    }
+}
